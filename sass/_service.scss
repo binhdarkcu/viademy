@@ -1,0 +1,18 @@
+.service{
+	.col{
+		float: left;
+		width: 33%;
+		text-align: center;
+		h4{
+		@include openSanBold(14px);
+		padding-top: 4px;
+		}
+		p{
+		color: #5d6670;
+		@include openSanNormal(14px);
+		line-height: 1.6;
+		width: 95%;
+		text-align: center;
+		}
+	}
+}

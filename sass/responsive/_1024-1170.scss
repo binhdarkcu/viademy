@@ -1,0 +1,45 @@
+@media only screen and (min-width: 1024px) and (max-width: 1170px) {
+	.courseList{
+		text-align: center;
+		.userinfo, .info, h4{
+			text-align: left;
+		}
+		li.last{
+			    margin-right: 30px;
+		}
+
+	}
+	.special {
+		.special-left{
+			width: 50%;
+			ul{
+				li{
+					width: 48%;
+					margin-right: 2%;
+					img{
+						width: 100%;
+					}
+				}
+			}
+		}	
+		.special-right{
+			width: 48%; 
+			margin-left: 2%;
+		}
+	}
+ 	.introduce {
+ 		.colleft{
+ 			width: 50%;
+ 		}
+ 		.colright{
+ 			width: 50%;
+ 		}
+ 	}
+ 	.upgrade .upgradebox{
+ 		width: 30%;
+ 		margin-right: 3%;
+ 		.head h2{
+ 			font-size: 55px;
+ 		}
+ 	}
+}

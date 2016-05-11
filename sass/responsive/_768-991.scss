@@ -1,0 +1,91 @@
+@media only screen and (min-width: 0px) and (max-width: 991px) {
+	body{
+		min-width: 768px;
+	}
+	.banner .reportContent{ 
+		 ul li, ul li.stud {
+
+		 	padding-right: 35px;
+		 	div{
+			 	font-size: 63px;
+			 }
+			 span{
+			 	font-size: 12px;
+			 }
+		 }
+		 ul li.less{
+		 	padding-right: 0;
+		 }
+	}
+	.courseList{
+		text-align: center;
+		.userinfo, .info, h4{
+			text-align: left;
+		}
+		li.last{
+			    margin-right: 30px;
+		}
+
+	}
+	.about p span{
+		display: inline-block;
+	}
+	.special {
+		.special-left{
+			width: 50%;
+			ul{
+				li{
+					width: 48%;
+					margin-right: 2%;
+					img{
+						width: 100%;
+					}
+				}
+			}
+		}	
+		.special-right{
+			width: 48%; 
+			margin-left: 2%;
+		}
+	}
+ 	.introduce {
+ 		.colleft{
+ 			width: 50%;
+ 			img{
+ 				width: 97%;
+ 			}
+ 		}
+ 		.colright{
+ 			width: 50%;
+ 			padding-top: 7%;
+ 		}
+ 	}
+ 	.upgrade{
+ 		.tablecell{
+ 			display: table;
+ 			width: 100%;
+ 			text-align: center;
+ 		}
+ 	}
+ 	.upgrade .upgradebox{
+ 		width: 32%;
+    margin-right: 2%;
+ 		.head {
+ 			h2{
+	 			font-size: 45px;
+	 		}
+	 		h5{
+	 			font-size: 12px;
+	 		}
+ 		}
+ 	}
+ 	footer{
+ 		.row{
+ 			margin-left: 15px;
+ 			margin-right: 15px;
+ 		}
+ 	}
+ 	.upgradeTable .tbUpgrade{
+ 		    width: 100%;
+ 	}
+}

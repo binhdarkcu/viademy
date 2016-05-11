@@ -1,0 +1,101 @@
+footer{
+padding-top: 47px;
+
+	.col{
+	color: #5d6670;
+		float: left;
+		p{
+			@include openSanNormal(12px);
+			line-height: 1.4;
+			padding-top: 12px;
+		}
+		h3{
+			@include openSanSimiBold(16px);
+			text-align: left;
+			margin-top: 2px;
+			margin-bottom: 8px;
+		}
+		&.col1{
+		width: 400px;
+		}
+		&.col2{
+		width: 198px;
+		}
+		&.col3{
+		width: 200px;
+		}
+		&.col4{
+		width: 345px;
+		h3{
+		margin-bottom:0;
+		}
+		p{
+		padding-top: 9px;
+		}
+		}
+		ul{
+			li{
+				margin-top: 5px;
+				a{
+				color: #5d6670;
+					@include openSanNormal(14px);
+				}
+			}
+		}
+		.cont{
+		@include openSanSimiBold(14px);
+		color: #3b97d3;
+		margin-top: 45px;
+			a{
+
+				color: #3b97d3;
+				@include openSanSimiBold(14px);
+				&.aphone{
+					margin-right: 18px;
+				}
+				&.amail{
+					margin-left: 18px;
+				}
+			}
+		}
+	}
+	.bottom{
+	margin-top: 39px;
+		border-top: 1px solid #dee4e8;
+		padding-top: 33px;
+		padding-bottom: 37px;
+		.branch{
+		float: left;
+			color: #5d6670;
+			@include openSanNormal(14px);
+			i{
+				background: url(../images/heart.png) no-repeat;
+				width: 15px;
+				height: 14px;
+				display: inline-block;
+			}
+		}
+		ul.social{
+		float: right;
+		li{
+		display: inline-block;
+		}
+			a{ 
+				background: url(../images/social.png) no-repeat;
+				width: 25px;
+				height: 20px;
+				display: block;
+				&.fb{
+    				background-position: -30px 0;
+				}
+				&.tw{
+					    background-position: -62px 0;
+				}
+				&.dl{
+					background-position: right 0;
+					    width: 10px;
+				}
+			}
+		}
+	}
+}

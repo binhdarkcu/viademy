@@ -1,0 +1,36 @@
+
+/* ! PRIMARY STYLES */
+html, body{width:100%; min-width:640px; }
+body {
+	font: $fontArial12; color:#fff;
+	background: #010102;
+}
+a{text-decoration: none;}
+.clear{clear:both;}
+
+.content700{width:700px;}
+.content820{width:820px;}
+.content890{width:890px;}
+.content940{width:940px;}
+
+.wrapper{
+  margin: 0 auto;
+  position: relative;
+}
+.section{
+	padding-top: 55px;
+}
+
+.btn {
+	color: #fff;
+	
+}
+.btn.btnblue{
+	background: #3b97d3;
+	padding: 12px 42px 10px;
+	@include openSanSimiBold(14px);
+	@include border-radius(17px);
+}
+.hasborder{
+	border-top: 1px solid #dee4e8;
+}

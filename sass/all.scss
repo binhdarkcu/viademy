@@ -1,0 +1,22 @@
+@import 'variables';
+
+@import 'reset';
+@import 'skeleton';
+@import 'font';
+@import 'style';
+@import 'header';
+@import 'footer';
+@import 'popup';
+
+@import 'bootstrap.min'; 
+@import 'home'; 
+@import 'star-rating'; 
+@import 'special'; 
+@import 'slick'; 
+@import 'service';
+@import 'about';  
+@import 'upgrade';  
+
+@import 'responsive/1024-1170';
+@import 'responsive/992-1024';
+@import 'responsive/768-991';
