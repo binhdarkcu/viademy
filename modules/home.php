@@ -1,20 +1,9 @@
 <section class="home">
 	<?php include('includes/banner.php');?>
-	<?php include('course.php');?>
-	<?php include('special.php');?>
-	<?php include('service.php');?>
-	<?php include('about.php');?>
-	<?php include('upgrade.php');?>
-	<section class="tryUse section ">
-		<div class="container">
-			<div class="row">
-				<h3>Dùng thử 1 tuần CHO HỌC VIÊN ĐĂNG KÝ HỌC HÔM NAY</h3>
-				<p>
-					<span>Erat nec id et ipsum odio. Quis quam et aliquam, eu amet in cras in egestas, vel et libero curabi</span>
-					<span>tur sodales ipsum, posuere pretium a. </span>
-				</p>
-				<a href="#" class="btn btnblue">Đăng ký ngay</a>
-			</div>
-		</div>
-	</section>
+	<?php include('home/course.php');?>
+	<?php include('home/special.php');?>
+	<?php include('home/service.php');?>
+	<?php include('home/about.php');?>
+	<?php include('home/upgrade.php');?>
+	<?php include('home/tryuse.php');?>
 </section>
