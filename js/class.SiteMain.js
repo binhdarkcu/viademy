@@ -12,9 +12,12 @@ var SiteMain = (function() {
 	}
 	
 	function openPopup(idDiv){
-
+		closePopup();
+		$(idDiv).css('display', 'block');
 	}
-	function closePopup(idDiv){
+	function closePopup(){
+		$('.register form')[0].reset();
+		$('.popup').css('display', 'none');
 	}
 
 	function createRating(clsDiv){

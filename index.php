@@ -38,5 +38,10 @@
 			?>
         </div>
     </div>
+
+    <?php
+    	include("popups/login.php");
+        include("popups/register.php");
+    ?>
 </body>
 </html>
