@@ -7,6 +7,40 @@
 					<a href="#" class="active">Mới nhất</a>
 					<a href="#" class="">Nhiều người học nhất</a>
 					<a href="#" class="">Điểm đánh giá cao nhất</a>
+					<div class="filterbox">
+						<a href="javascript: void(0);" class="afilter">
+							Bộ lọc
+							<i></i>
+						</a>
+						<div class="filterType">
+							<span class="arrbox"></span>
+							<div class="filtertab">
+								<h5>Hình thức học</h5>
+								<a href="#" class="premium selected">Trả phí</a>
+								<a href="#" class="free">Miễn phí</a>
+							</div>
+							<div class="filterContent">
+								<h5>Thời lượng</h5>
+								<label for="less15">
+									<input id="less15" type="radio" name="studytime" value="15"/>
+									Dưới 15 phút
+								</label>
+								<label for="from15to30">
+									<input id="from15to30" type="radio" name="studytime" value="15-30"/>
+									Từ 15 đến 30p
+								</label>
+								<label for="from30to60">
+									<input id="from30to60" type="radio" name="studytime" value="30-60"/>
+									Từ 30 đến 60p
+								</label>
+								<label for="over60">
+									<input id="over60" type="radio" name="studytime" value="60"/>
+									Trên 60p
+								</label>
+								
+							</div>
+						</div>
+					</div>
 				</div>
 				<ul class="courseList">
 					<li class="free">
@@ -88,7 +122,7 @@
 							</div>
 						</div>
 					</li>
-					<li class="free last">
+					<li class="free">
 						<a href="#">
 							<div class="imgBox">
 								<img src="images/img-4.jpg" alt="" />
@@ -168,6 +202,7 @@
 						</div>
 					</li>
 				</ul>
+				<a href="#" class="btn btnblue">Xem thêm</a>
 			</div>
 	</div>
 </section>

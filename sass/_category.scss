@@ -1,0 +1,150 @@
+section.category{
+	padding-top: 70px;
+}
+.sidebar{
+	width: 160px;
+	text-align: left;
+	float: left;
+	h3.title{
+		@include openSanSimiBold(14px);
+		color: #868c93;
+		text-align: left;
+		margin-top: 37px;
+		    margin-bottom: 38px;
+		i{
+			margin-right: 10px;
+
+		}
+	}
+	ul{
+		li{
+			padding-bottom: 18px;
+			a{
+				display: block;
+				color: #3b97d3;
+				@include openSanNormal(14px);
+				i{
+				margin-right: 8px;
+				}
+				span{
+
+				}
+			}
+			&.sub-menu{
+				a{
+					background: url(../images/s-arr.png) no-repeat right center;
+
+				}
+			}
+		}
+	}
+}
+.cateList{
+	float: left;
+	width: 880px;
+	float: right;
+	color: #5d6670;
+	h2{
+		margin: 0;
+		border-bottom: 1px solid #dde6f1;
+		padding-bottom: 20px;
+		margin-bottom: 30px;
+		@include openSanSimiBold(36px);
+	}
+	.filter{
+		a{
+			color: #5d6670;
+			padding: 12px 20px;
+			float: left;
+			@include openSanNormal(12px);
+			border: 1px solid #dde6f1;
+			&:hover{
+				text-decoration: none;
+				background: #dde6f1;
+			}
+			&.active{
+				background: #dde6f1;
+			}
+		}
+		.filterbox{
+			float: left;
+			position: relative;
+			margin-left: 80px;
+			a.afilter{
+				padding-right: 15px;
+				&:active, &:hover, &:focus{
+					text-decoration: none;
+				}
+				i{
+					background: url(../images/arr-select-2.png) no-repeat;
+					width: 8px;
+					height: 5px;
+					float: right;
+				    margin-left: 16px;
+				    margin-top: 4px;
+				}
+			}
+			h5{
+				@include openSanSimiBold(12px);
+				color: #a1a1a1;
+				margin: 0;
+				padding-bottom: 15px;
+			}
+			.filterType{
+				position: absolute;
+				width: 200px;
+				border: 1px solid #eaeaea;
+				@include border-radius(7px);
+				top: 50px;
+    			left: -80px;
+    			background: #fff;
+    			z-index: 1000;
+    			padding: 15px 18px;
+    			display: none;
+				.arrbox{
+				    background: url(../images/arr-box.png) no-repeat;
+				    position: absolute;
+				    top: -4px;
+				    right: 50px;
+				    width: 10px;
+				    height: 5px;
+				}
+				.filtertab{
+					
+					a{
+						@include openSanNormal(12px);
+						color: #fff;
+						background: #959595;
+						float: left;
+						padding: 8px 18px;
+						border: none;
+						&.selected{
+							background: #3a96d2;
+						}
+						
+					}
+				}
+			}
+			.filterContent{
+				clear: both;
+				h5{
+					padding-top: 18px;
+				}
+				label{
+					@include openSanNormal(12px);
+					color: #959595;
+				}
+				input[type="radio"]{
+					position: relative;
+					top: 2px;
+				}
+			}
+		}
+	}
+	.courseList{
+		width: 101%;
+		li{
+
+		}
+	}
+}

@@ -5,6 +5,7 @@ var SiteMain = (function() {
 		//createRating('.rating');
 		onRating();
 		createSlick();
+		toggleFilter();
 	}
 	
 	function createRadio(){
@@ -39,7 +40,19 @@ var SiteMain = (function() {
 			infinite: false
 		});
 	}
-
+	var click = 0;
+	function toggleFilter(){
+		$('.filterbox a.afilter').click(function(){
+			if(click == 0){
+				$('.filterType').css('display','block');
+				click=1;
+			}else{
+				$('.filterType').css('display','none');
+				click=0;
+			}
+		});
+		
+	}
 	return {
 		init:init,
 		openPopup:openPopup,

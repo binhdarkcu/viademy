@@ -1,4 +1,18 @@
 @media only screen and (min-width: 0px) and (max-width: 991px) {
+	.cateList{
+		    width: 558px;
+		.courseList{
+			    width: 100%;
+			    text-align: left;
+			    li{
+			    	margin-right: 10px;
+			    }
+		}
+		.filter .filterbox{
+			float: left;
+			margin-left: 0;
+		}
+	}
 	body{
 		min-width: 768px;
 	}
