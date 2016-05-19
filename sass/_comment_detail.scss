@@ -1,0 +1,91 @@
+.commentDetail{
+	.videoPlayer{
+		background: #242424;
+		.top{
+			.vleft{
+				float: left;
+				width: 85%;
+				h3{
+					@include openSanNormal(24px);
+					text-align: left;
+					color: #fff;
+					margin-top: 27px;	
+					margin-bottom: 40px;
+				}
+				h4{
+					@include openSanNormal(16px);	
+					color: #fff;
+					margin-bottom: 25px;
+					margin-top: 0;
+					padding-left: 45px;
+				}
+
+			}
+			.lessiontitle{
+				margin-top: 25px;
+				float: right;
+				@include openSanNormal(14px);
+				color: #fff;
+				background: #3b97d3;
+				padding: 6px 21px;
+				@include border-radius(10px);
+			}
+		}
+		.videoBox{
+			.mainScreen{
+				float: left;
+				width: 875px;
+				img{
+					width: 100%;
+				}
+			}
+			.listVideos{
+				float: left;
+				width: 265px;
+				background: #000;
+				.type{
+					a{
+						&.amount{
+
+						}
+						&.note{
+							
+						}
+					}
+				}
+			}
+		}
+		.scrollBar{
+			ul{
+				li{
+					a{
+						&.play{
+
+						}
+					}
+					.subject{
+						h5{
+
+						}
+						span.status {
+
+						}
+						span.duration{
+
+						}
+					}
+					.title{
+
+					}
+					&.completed{
+						h5{ 
+							i{
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
