@@ -1,3 +1,17 @@
+<style>
+ 
+  /* Show the controls (hidden at the start by default) */
+  .video-js .vjs-control-bar { 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  /* Make the demo a little prettier */
+  
+
+</style>
 <section class="commentDetail">
 	<div class="videoPlayer">
 		<div class="container">
@@ -12,7 +26,12 @@
 
 			<div class="videoBox">
 				<div class="mainScreen">
-					<img src="images/video.jpg" alt=""/>
+					<video id="my_video_1" class="video-js vjs-default-skin vjs-fullscreen" width="auto" height="auto"
+				      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
+				      data-setup='{ }'>
+					    <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+					    <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+				    </video>
 				</div>
 				<div class="listVideos">
 					<div class="type">
@@ -176,7 +195,7 @@ Now I just need to practice more to master the pen tool.</p>
 											</div>
 										</div>
 										<div class="number-reply">
-											<span class="love">3</span>
+											<span class="vote love" data-vote="3">3</span>
 											<a href="#">Trả lời</a>
 										</div>
 										<div class="replyForm">
@@ -202,7 +221,7 @@ Now I just need to practice more to master the pen tool.</p>
 											</div>
 										</div>
 										<div class="number-reply">
-											<span></span>
+											<span class="vote " data-vote=""></span>
 											<a href="#">Trả lời</a>
 										</div>
 										
@@ -223,7 +242,7 @@ Now I just need to practice more to master the pen tool.</p>
 											</div>
 										</div>
 										<div class="number-reply">
-											<span></span>
+											<span class="vote "></span>
 											<a href="#">Trả lời</a>
 										</div>
 										
@@ -244,16 +263,117 @@ Now I just need to practice more to master the pen tool.</p>
 											</div>
 										</div>
 										<div class="number-reply">
-											<span></span>
+											<span class="vote " data-vote=""></span>
 											<a href="#">Trả lời</a>
 										</div>
 										
 									</div>
 									<div class="clear"></div>
+								</li>
+								<li class="yourComment">
+									<div class="avatar"></div>
+									<div class="box ">
+										<h3>Ý kiến của bạn</h3>
+										<div class="replyForm">
+											<form method="" action="">
+												<textarea id="comment" name="comment" tabindex="4" required="required"></textarea>
+												<input type="submit" class="btn blue" value="Bình luận"/> 
+											</form>
+										</div>
+									</div>
 								</li>
 							</ul>
 						</div>
 					</div>
+				</div>
+
+				<!--End-->
+				<div class="courseFeatures">
+					<h3>Khóa học đề xuất</h3>
+					<ul class="courseList">
+						<li class="free">
+							<a href="#">
+								<div class="imgBox">
+									<img src="images/img-1.jpg" alt="" />
+									<p>Miễn phí </p>
+									<div class="timeplay">
+										<i class="glyphicon glyphicon-play-circle"></i>
+										<span>25m 26s</span>
+									</div>
+								</div>
+								<h4>Lorem ipsum dolor sit amet dolor sit amet lorum ipsem cildiv covi</h4>
+							</a>
+							<div class="info">
+								<span class="per"><i class="glyphicon glyphicon-user"></i>299</span>
+								<span class="fold"><i class="glyphicon glyphicon-folder-open"></i>Danh mục 5</span>
+							</div>
+
+							<div class="byuser">
+								<img src="images/s-1.jpg" alt="" />
+								<div class="userinfo">
+									<span class="name">Nicholas Ramos</span>
+									<div class="rating">
+										<input type="text" class="rating rating-loading" value="3.5" data-size="xm" title="" >
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="premium">
+							<a href="#">
+								<div class="imgBox">
+									<img src="images/img-2.jpg" alt="" />
+									<p>Trả phí </p>
+									<div class="timeplay">
+										<i class="glyphicon glyphicon-play-circle"></i>
+										<span>25m 26s</span>
+									</div>
+								</div>
+								<h4>Lorem ipsum dolor sit amet dolor sit amet lorum ipsem cildiv covi</h4>
+							</a>
+							<div class="info">
+								<span class="per"><i class="glyphicon glyphicon-user"></i>299</span>
+								<span class="fold"><i class="glyphicon glyphicon-folder-open"></i>Danh mục 1</span>
+							</div>
+							<div class="byuser">
+								<img src="images/s-2.jpg" alt="" />
+								<div class="userinfo">
+									<span class="name">Marcus Schmidt</span>
+									<div class="rating">
+										<input type="text" class="rating rating-loading" value="3" data-size="xm" title="" >
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="free">
+							<a href="#">
+								<div class="imgBox">
+									<img src="images/img-3.jpg" alt="" />
+									<p>Miễn phí </p>
+									<div class="timeplay">
+										<i class="glyphicon glyphicon-play-circle"></i>
+										<span>25m 26s</span>
+									</div>
+								</div>
+								<h4>Lorem ipsum dolor sit amet dolor sit amet lorum ipsem cildiv covi</h4>
+							</a>
+							<div class="info">
+								<span class="per"><i class="glyphicon glyphicon-user"></i>299</span>
+								<span class="fold"><i class="glyphicon glyphicon-folder-open"></i>Danh mục 2</span>
+							</div>
+							<div class="byuser">
+								<img src="images/s-3.jpg" alt="" />
+								<div class="userinfo">
+									<span class="name">Birdie Walters</span>
+									<div class="rating">
+										<input type="text" class="rating rating-loading" value="3.5" data-size="xm" title="" >
+									</div>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+
+					<a href="#" class="btn btnblue">Xem thêm</a>
 				</div>
 			</div>
 			<div class="commentRight">
@@ -273,13 +393,13 @@ Now I just need to practice more to master the pen tool.</p>
 					<p>To tell you the truth I never thought of taking up a career as a teacher of any kind. In fact, I was always reluctant to agree with people, who always encouraged me to teach, saying: You should be a teacher! </p>
 					<p>But here I am and I am really enjoying it!</p>
 					<p>At first I started learning Photoshop. Then it was Illustrator and logo design principles.</p>
-					<a href="#" class="btn blue">Theo dõi</a>
+					<a href="#" class="btn btnblue">Theo dõi</a>
 
 					<div class="number-study">
-						<span class="title">SỐ LƯỢT HỌC  1000</span>
+						<span class="title">SỐ LƯỢT HỌC <b>1000</b></span>
 						<div class="rating">
-							<span>ĐÁNH GIÁ </span>
-							<input type="text" class="rating rating-loading" value="0" data-size="xm" title="" >
+							<span class="rattitle">ĐÁNH GIÁ </span>
+							<input type="text" class="rating rating-loading" value="5" data-size="xm" title="" >
 						</div>
 					</div>
 				</div>

@@ -37,9 +37,9 @@
 		.videoBox{
 			padding-bottom: 30px;
 			.mainScreen{
-
-				float: left;
-				width: 875px;
+			    float: left;
+			    width: 875px;
+			    height: 492px;
 				img{
 					width: 100%;
 				}
@@ -205,6 +205,8 @@
     float: left;
 				}
 				.avatar{
+					width: 108px;
+					height: 108px;
 					@include border-radius(50%);
 					float: left;
 					position: relative;
@@ -241,7 +243,7 @@
 				.number-reply{
 						padding-top: 26px;
 						float: right;
-						span{
+						span.vote{
 							width: 26px;
 							height: 22px;
 							padding-right: 35px;
@@ -250,6 +252,7 @@
 							padding-top: 5px;
     						padding-bottom: 5px;
     						background: url(../images/heart-gray.png) no-repeat right center;
+    						cursor: pointer;
 						}
 						span.love{
 							background: url(../images/heart.png) no-repeat right center;
@@ -288,6 +291,16 @@
 					@include border-radius(20px);
 					margin-top: 30px;
 					float: right;
+				}
+			}
+		}
+		.yourComment{
+			.box {
+				h3{
+					text-align: left;
+					margin-top: 0;
+					margin-bottom: 0;
+					padding-bottom: 0;
 				}
 			}
 		}
@@ -340,6 +353,53 @@
 				@include openSanNormal(12px);
 				line-height: 1.4;
 			}
+			a.btn{
+				margin-top: 72px;
+			}
+		}
+		.number-study{
+			padding-top: 92px;
+			.title{
+				@include openSanBold(16px);
+				color: #5d6670;
+				    display: block;
+				padding-bottom: 18px;
+				b{
+					font-size: 24px;
+				}
+			}
+			.rating{
+				
+				span{
+					@include openSanBold(16px);
+					color: #5d6670;
+					&.rattitle{
+						float: left;
+						margin-right: 15px;	
+					}
+				}
+				.rating-container{
+					span{
+						color: #3a96d2;
+					}
+				}
+			}
+		}
+	}
+}
+
+.courseFeatures{
+	padding-top: 15px;
+	clear: both;
+	h3{
+		text-align: left;
+		margin-bottom: 0;
+	}
+	ul.courseList{
+		width: 103%;
+		padding-top: 35px;
+		li{
+			margin-right: 25px;
 		}
 	}
 }

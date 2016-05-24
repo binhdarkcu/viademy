@@ -7,6 +7,7 @@ var SiteMain = (function() {
 		createSlick();
 		toggleFilter();
 		createScrollBar('.listVideos .scrollBar');
+		voteComment();
 	}
 	
 	function createRadio(){
@@ -56,6 +57,12 @@ var SiteMain = (function() {
 	}
 	function createScrollBar(clsDiv){
 		$(clsDiv).mCustomScrollbar();
+	}
+	var ivote = 0;
+	function voteComment(){
+		$('.number-reply span.vote').click(function(){
+	        $( this ).toggleClass( "love" );
+		});
 	}
 	return {
 		init:init,
