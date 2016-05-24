@@ -1,3 +1,9 @@
+.home{
+	footer{
+		border-top: none;
+		margin-top:0;
+	}
+}
 footer{
 padding-top: 47px;
 	border-top: 1px solid #dee4e8;
@@ -71,7 +77,7 @@ padding-top: 47px;
 			color: #5d6670;
 			@include openSanNormal(14px);
 			i{
-				background: url(../images/heart.png) no-repeat;
+				background: url(../images/heart-red.png) no-repeat;
 				width: 15px;
 				height: 14px;
 				display: inline-block;

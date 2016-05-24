@@ -39,7 +39,8 @@
         		include("modules/includes/header.php");
 				$module = isset($_REQUEST['module']) ? $_REQUEST['module']: "home";
 				include("modules/$module.php");
-				include("modules/includes/footer.php");
+				if($module != 'home')
+                    include("modules/includes/footer.php");
 			?>
         </div>
     </div>

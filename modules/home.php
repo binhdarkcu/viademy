@@ -6,4 +6,5 @@
 	<?php include('home/about.php');?>
 	<?php include('home/upgrade.php');?>
 	<?php include('home/tryuse.php');?>
+	<?php include("modules/includes/footer.php");?>
 </section>
