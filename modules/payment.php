@@ -10,7 +10,9 @@
 						<span>/ tháng</span>
 					</div>
 					<div class="upCon">
-						<input type="radio"> <span>Thanh toán một tháng</span>
+						<label for="paymonth">
+							<input id="paymonth" type="radio" name="payoption"> <span>Thanh toán một tháng</span>
+						</label>
 					</div>
 				</div>
 				<div class="paymentbox last">
@@ -20,7 +22,9 @@
 						<span>/ năm</span>
 					</div>
 					<div class="upCon">
-						<input type="radio"> <span>Thanh toán một năm</span>
+						<label for="payyear">
+							<input id="payyear" type="radio" name="payoption"> <span>Thanh toán một năm</span>
+						</label>
 					</div>
 				</div>
 			</div>
