@@ -37,7 +37,7 @@
 						<div class="clear"></div>
 					</div>
 					<div class="tabScreenContent">
-						<div class="typetab" id="amountTab">
+						<div class="typetab current" id="amountTab">
 							<div class="scrollBar">
 								<ul class="videoPlayerList">
 									<li class="currentPlay">
@@ -188,8 +188,28 @@
 							</div>
 						</div>
 						<!--End tab-->
-						<div class="typetab" id="noteTab">
-
+						<div class="typetab notetab" id="noteTab">
+							<form method="" action="">
+								<div class="noterow">
+									<label>Thời gian</label>
+									<textarea placeholder="Nội dung"></textarea>
+								</div>
+								<div class="noteResult">
+									<ul>
+										<li>
+											<div class="duration">
+												00.04
+											</div>
+											<div class="text">
+												Đây là note demo
+												Demo thôi
+											</div>
+											<a href="#" class="remove"></a>
+										</li>
+									</ul>
+								</div>
+								<a href="#" class="btn btnblue">Thêm</a>
+							</form>
 						</div>
 					</div>
 				</div>

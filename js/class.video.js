@@ -27,7 +27,10 @@ var videoPlayer = (function() {
 				$(nextVideo).addClass('currentPlay');
 				$('ul.videoPlayerList li a').removeClass('play');
 				$(nextVideo).find('a').addClass('play');
-			    changeSource(nextsrc);
+				
+				if(nextsrc){
+			    	changeSource(nextsrc);
+			    }
 			});
 			this.on('play', function() {
 				$('ul.videoPlayerList li a').removeClass('playing');
@@ -43,7 +46,8 @@ var videoPlayer = (function() {
 	function changeVideo(){
 		$('ul.videoPlayerList li a').click(function(){
 			var src = $(this).attr('data-source');
-			
+			$('ul.videoPlayerList li').removeClass('currentPlay');
+				$(this).parents().addClass('currentPlay');
 			if (player.paused()) {
 			    player.play();
 			}
@@ -51,8 +55,7 @@ var videoPlayer = (function() {
 			    player.pause();
 			}
 			if(srcTemp != src){
-				$('ul.videoPlayerList li').removeClass('currentPlay');
-				$(this).parents().addClass('currentPlay');
+				
 				changeSource(src);
 			}
 			srcTemp = src;
