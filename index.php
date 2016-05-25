@@ -15,13 +15,13 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="css/all.css">
-
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 <script src="js/icheck.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/star-rating.js"></script>
 <script src="js/slick.js"></script>
+<script src="js/jquery.mCustomScrollbar.js"></script>
 <script src="js/class.SiteMain.js"></script>
 
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

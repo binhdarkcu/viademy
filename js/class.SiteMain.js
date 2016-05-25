@@ -6,6 +6,7 @@ var SiteMain = (function() {
 		onRating();
 		createSlick();
 		toggleFilter();
+		createScrollBar('.listVideos .scrollBar');
 	}
 	
 	function createRadio(){
@@ -52,6 +53,9 @@ var SiteMain = (function() {
 			}
 		});
 		
+	}
+	function createScrollBar(clsDiv){
+		$(clsDiv).mCustomScrollbar();
 	}
 	return {
 		init:init,

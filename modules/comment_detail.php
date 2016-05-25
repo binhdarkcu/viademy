@@ -4,7 +4,7 @@
 			<div class="top">
 				<div class="vleft">
 					<h3>Business Behind-the-Scenes: Growing Your Creative Passion</h3>
-					<h4>Danh mục 1  l   Khóa học trả phí  l  Growing yoyr creative passion</h4>
+					<h4><span>Danh mục 1</span>  |  <span>Khóa học trả phí</span>  |  <span>Growing yoyr creative passion</span></h4>
 				</div>
 				<div class="lessiontitle">Khóa học trả phí</div>
 				<div class="clear"></div>	
@@ -16,90 +16,135 @@
 				</div>
 				<div class="listVideos">
 					<div class="type">
-						<a href="#" class="amount">17 videos</a>
-						<a href="#" class="note">Ghi chú</a>
+						<a href="#amountTab" class="amount">17 videos</a>
+						<a href="#noteTab" class="note">Ghi chú</a>
+						<div class="clear"></div>
 					</div>
-					<div class="scrollBar">
-						<ul>
-							<li>
-								<a href="#" class="play">
-									<div class="subject">
-										<h5>BÀI HỌC 1<i></i></h5>
-										<span class="status pause"></span><!--playing, pause-->
-										<span class="duration">20:15</span>
-									</div>
-									<div class="title">
-										Growing Your Creative
-									</div>
-								</a>
-							</li>
-							<li class="completed">
-								<a href="#" class="play">
-									<div class="subject">
-										<h5>BÀI HỌC 1<i></i></h5>
-										<span class="status pause"></span><!--playing, pause-->
-										<span class="duration">20:15</span>
-									</div>
-									<div class="title">
-										Growing Your Creative
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="play">
-									<div class="subject">
-										<h5>BÀI HỌC 1<i></i></h5>
-										<span class="status pause"></span><!--playing, pause-->
-										<span class="duration">20:15</span>
-									</div>
-									<div class="title">
-										Growing Your Creative
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="play">
-									<div class="subject">
-										<h5>BÀI HỌC 1<i></i></h5>
-										<span class="status pause"></span><!--playing, pause-->
-										<span class="duration">20:15</span>
-									</div>
-									<div class="title">
-										Growing Your Creative
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="play">
-									<div class="subject">
-										<h5>BÀI HỌC 1<i></i></h5>
-										<span class="status pause"></span><!--playing, pause-->
-										<span class="duration">20:15</span>
-									</div>
-									<div class="title">
-										Growing Your Creative
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="#" class="play">
-									<div class="subject">
-										<h5>BÀI HỌC 1<i></i></h5>
-										<span class="status pause"></span><!--playing, pause-->
-										<span class="duration">20:15</span>
-									</div>
-									<div class="title">
-										Growing Your Creative
-									</div>
-								</a>
-							</li>
-						</ul>
+					<div class="tabScreenContent">
+						<div class="typetab" id="amountTab">
+							<div class="scrollBar">
+								<ul>
+									<li>
+										<a href="#" class="play">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li class="completed">
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+									<li>
+										<a href="#" class="">
+											<div class="subject">
+												<h5>BÀI HỌC 1<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!--End tab-->
+						<div class="typetab" id="noteTab">
 
-
+						</div>
 					</div>
 				</div>
+				<div class="clear"></div>
 			</div>
 			<!--End video-->
+
 		</div>
 	</div>
 	<div class="container">
@@ -108,17 +153,17 @@
 				<div class="tabComment">
 					<div class="tabName">
 						<ul>
-							<li><a href="#comment">Bình luận</a></li>
+							<li class="active"><a href="#comment">Bình luận</a></li>
 							<li><a href="#comment">Tài liệu</a></li>
 							<li><a href="#comment">Thông tin</a></li>
 							<li><a href="#comment">Đánh giá</a></li>
 						</ul>
 					</div>
 					<div class="tabContent">
-						<div class="tab active" id="comment">
+						<div class="tab tabcomment active" id="comment">
 							<ul class="">
 								<li>
-									<img src="images/c-1.jpg"/>
+									<div class="avatar"><img src="images/c-2.jpg"/></div>
 									<div class="box">
 										<div class="comment-content">
 											<p>This course is a must if you are into Illustration. Great tutorial, well explained. 
@@ -131,16 +176,80 @@ Now I just need to practice more to master the pen tool.</p>
 											</div>
 										</div>
 										<div class="number-reply">
-											<span>3</span>
+											<span class="love">3</span>
 											<a href="#">Trả lời</a>
 										</div>
+										<div class="replyForm">
+											<form method="" action="">
+												<textarea id="comment" name="comment" tabindex="4" required="required"></textarea>
+												<input type="submit" class="btn blue" value="Trả lời"/> 
+											</form>
+										</div>
 									</div>
-									<div class="replyForm">
-										<form method="" action="">
-											<textarea id="comment" name="comment" tabindex="4" required="required"></textarea>
-											<input type="submit" class="btn blue" value="Trả lời"/> 
-										</form>
+									<div class="clear"></div>
+								</li>
+								<li>
+									<div class="avatar"><img src="images/c-2.jpg"/></div>
+									<div class="box">
+										<div class="comment-content">
+											<p>This course is a must if you are into Illustration. Great tutorial, well explained. 
+Now I just need to practice more to master the pen tool.</p>
+										</div>
+										<div class="comment-info">
+											<div class="comment-user">
+												<a href="#">Markesha Smith </a>
+												<span class="date">13.00 Ngày 27.3.2016</span>
+											</div>
+										</div>
+										<div class="number-reply">
+											<span></span>
+											<a href="#">Trả lời</a>
+										</div>
+										
 									</div>
+									<div class="clear"></div>
+								</li>
+								<li>
+									<div class="avatar"><img src="images/c-2.jpg"/></div>
+									<div class="box">
+										<div class="comment-content">
+											<p>This course is a must if you are into Illustration. Great tutorial, well explained. 
+Now I just need to practice more to master the pen tool.</p>
+										</div>
+										<div class="comment-info">
+											<div class="comment-user">
+												<a href="#">Markesha Smith </a>
+												<span class="date">13.00 Ngày 27.3.2016</span>
+											</div>
+										</div>
+										<div class="number-reply">
+											<span></span>
+											<a href="#">Trả lời</a>
+										</div>
+										
+									</div>
+									<div class="clear"></div>
+								</li>
+								<li>
+									<div class="avatar"><img src="images/c-2.jpg"/></div>
+									<div class="box">
+										<div class="comment-content">
+											<p>This course is a must if you are into Illustration. Great tutorial, well explained. 
+Now I just need to practice more to master the pen tool.</p>
+										</div>
+										<div class="comment-info">
+											<div class="comment-user">
+												<a href="#">Markesha Smith </a>
+												<span class="date">13.00 Ngày 27.3.2016</span>
+											</div>
+										</div>
+										<div class="number-reply">
+											<span></span>
+											<a href="#">Trả lời</a>
+										</div>
+										
+									</div>
+									<div class="clear"></div>
 								</li>
 							</ul>
 						</div>
@@ -160,7 +269,7 @@ Now I just need to practice more to master the pen tool.</p>
 					<img src="images/c-1.jpg"/>
 					<h4>Dawid Tuminski</h4>
 					<span>Adobe Certified Expert in Illustrator</span>
-					<p>'ve been using graphical software for many years now and I've recently decided to share my knowledge with others and I always try to do it in a straight-to-the-point kind of way with a touch of entertainment.</p>
+					<p>I've been using graphical software for many years now and I've recently decided to share my knowledge with others and I always try to do it in a straight-to-the-point kind of way with a touch of entertainment.</p>
 					<p>To tell you the truth I never thought of taking up a career as a teacher of any kind. In fact, I was always reluctant to agree with people, who always encouraged me to teach, saying: You should be a teacher! </p>
 					<p>But here I am and I am really enjoying it!</p>
 					<p>At first I started learning Photoshop. Then it was Illustrator and logo design principles.</p>
