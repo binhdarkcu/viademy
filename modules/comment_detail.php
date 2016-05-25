@@ -32,7 +32,7 @@
 				</div>
 				<div class="listVideos">
 					<div class="type">
-						<a href="#amountTab" class="amount">17 videos</a>
+						<a href="#amountTab" class="active amount">17 videos</a>
 						<a href="#noteTab" class="note">Ghi chú</a>
 						<div class="clear"></div>
 					</div>

@@ -67,6 +67,8 @@ var SiteMain = (function() {
 	}
 	function openTypeVideo(){
 		$('.listVideos .type a').click(function(){
+			$('.listVideos .type a').removeClass('active');
+			$(this).addClass('active');
 			$('.tabScreenContent .typetab').css('display','none');
 			var tabid = $(this).attr('href');
 			$(tabid).css('display','block');

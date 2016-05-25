@@ -57,11 +57,12 @@
 					    width: 50%;
 					    text-align: center;
 					    padding: 25px 0;
-						&.amount{
+					    background: #111111;
+						&.active{
 							background: #3b97d3;
 						}
 						&.note{
-							background: #111111;
+							
 						}
 					}
 				}
