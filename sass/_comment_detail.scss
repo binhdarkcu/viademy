@@ -82,15 +82,25 @@
 					padding-bottom: 21px;
 					a{
 						color: #e6e6e6;
-						&.play{
+						span.status{
+							width: 17px;
+							height: 17px;
+							float: left;
+						    margin-top: 10px;
+						    margin-left: 10px;
+						}
+						&.playing{
+							span.status {
+								&.pause{
+									background: url(../images/s-play.png) no-repeat;
+									
+								}
+							}
+						}
+						&.pause{
 							span.status {
 								&.pause{
 									background: url(../images/s-pause.png) no-repeat;
-									width: 17px;
-									height: 17px;
-									float: left;
-								    margin-top: 10px;
-								    margin-left: 10px;
 								}
 							}
 						}

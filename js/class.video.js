@@ -30,10 +30,12 @@ var videoPlayer = (function() {
 			    changeSource(nextsrc);
 			});
 			this.on('play', function() {
-				$('ul.videoPlayerList li.currentPlay a').removeClass('play');
+				$('ul.videoPlayerList li a').removeClass('playing');
+				$('ul.videoPlayerList li.currentPlay a').removeClass('playing').addClass('pause');
 			});
 			this.on('pause', function() {
-			    $('ul.videoPlayerList li.currentPlay').find('a').addClass('play');
+				$('ul.videoPlayerList li a').removeClass('pause');
+			    $('ul.videoPlayerList li.currentPlay a').removeClass('pause').addClass('playing');
 			});
 		});
 	}
