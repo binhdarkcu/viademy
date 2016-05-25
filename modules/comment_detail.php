@@ -26,11 +26,8 @@
 
 			<div class="videoBox">
 				<div class="mainScreen">
-					<video id="my_video_1" class="video-js vjs-default-skin vjs-fullscreen" width="auto" height="auto"
-				      controls preload="none" poster='http://video-js.zencoder.com/oceans-clip.jpg'
-				      data-setup='{ }'>
-					    <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
-					    <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm' />
+					<video id="commentVideo" class="video-js vjs-default-skin vjs-fullscreen" width="auto" height="auto"
+				      controls preload="auto" poster=''>
 				    </video>
 				</div>
 				<div class="listVideos">
@@ -42,9 +39,9 @@
 					<div class="tabScreenContent">
 						<div class="typetab" id="amountTab">
 							<div class="scrollBar">
-								<ul>
-									<li>
-										<a href="#" class="play">
+								<ul class="videoPlayerList">
+									<li class="currentPlay">
+										<a href="javascript:void(0);" class="" data-source="http://vjs.zencdn.net/v/oceans.mp4" data-poster="images/video.jpg">
 											<div class="subject">
 												<h5>BÀI HỌC 1<i></i></h5>
 												<span class="status pause"></span><!--playing, pause-->
@@ -53,10 +50,30 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												80%
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li class="completed">
-										<a href="#" class="">
+										<a href="javascript:void(0);" class="" data-source="http://dfcb.github.io/BigVideo.js/vids/river.mp4" data-poster="images/video2.jpg">
+											<div class="subject">
+												<h5>BÀI HỌC 2<i></i></h5>
+												<span class="status pause"></span><!--playing, pause-->
+												<span class="duration">20:15</span>
+											</div>
+											<div class="title">
+												Growing Your Creative
+											</div>
+											<div class="percent">
+												80%
+											</div>
+											<div class="clear"></div>
+										</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);" class="">
 											<div class="subject">
 												<h5>BÀI HỌC 1<i></i></h5>
 												<span class="status pause"></span><!--playing, pause-->
@@ -65,6 +82,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li>
@@ -77,6 +98,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												80%
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li>
@@ -89,6 +114,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li>
@@ -101,6 +130,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												80%
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li>
@@ -113,6 +146,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li>
@@ -125,6 +162,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
+											<div class="percent">
+												
+											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 									<li>
@@ -137,18 +178,10 @@
 											<div class="title">
 												Growing Your Creative
 											</div>
-										</a>
-									</li>
-									<li>
-										<a href="#" class="">
-											<div class="subject">
-												<h5>BÀI HỌC 1<i></i></h5>
-												<span class="status pause"></span><!--playing, pause-->
-												<span class="duration">20:15</span>
+											<div class="percent">
+												80%
 											</div>
-											<div class="title">
-												Growing Your Creative
-											</div>
+											<div class="clear"></div>
 										</a>
 									</li>
 								</ul>

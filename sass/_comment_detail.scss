@@ -77,8 +77,9 @@
 				li{
 					color: #e6e6e6;
 					border-bottom: 1px solid #383838;
-					padding-bottom: 21px;
+					
 					padding: 10px 0;
+					padding-bottom: 21px;
 					a{
 						color: #e6e6e6;
 						&.play{
@@ -113,6 +114,13 @@
 						color: #9e9e9e;
 						clear: both;
 						@include openSanNormal(12px);
+						float: left;
+						width: 80%;
+					}
+					.percent{
+						@include openSanBold(16px);
+						    float: right;
+						color: #3b97d3;
 					}
 					&.completed{
 						h5{ 
@@ -156,6 +164,9 @@
 	}
 	.mCSB_scrollTools .mCSB_draggerContainer{
 
+	}
+	a:hover{
+		text-decoration: none;
 	}
 }
 
@@ -402,4 +413,32 @@
 			margin-right: 25px;
 		}
 	}
+}
+
+.video-js{
+	&.commentVideo-dimensions{
+		    width: 100% !important;
+	    height: 100% !important;
+	    padding-top: 0 !important;
+	}
+	 .vjs-big-play-button{
+	 	
+			        background: transparent;
+		    border: none;
+		    width: 101px;
+		    height: 101px;
+		    left: 50%;
+		    margin-left: -50px;
+		    top: 50%;
+		    margin-top: -50px;
+		    &:before{
+					content: "";
+				background: url(../images/play-video.png) no-repeat;
+			}
+	 }
+}
+
+.video-js:hover .vjs-big-play-button, .video-js .vjs-big-play-button:focus{
+	background: transparent;
+	    border: none;
 }

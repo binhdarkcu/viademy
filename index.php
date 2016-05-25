@@ -14,22 +14,26 @@
 <meta name="viewport" content="width=640">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300' rel='stylesheet' type='text/css'>
 
+<link href="css/video-js.css" rel="stylesheet">
 <link rel="stylesheet" href="css/all.css">
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
+
+
+
+<!-- If you'd like to support IE8 -->
+<script src="js/videojs-ie8.min.js"></script>
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="js/video.js"></script>
 <script src="js/icheck.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/star-rating.js"></script>
 <script src="js/slick.js"></script>
 <script src="js/jquery.mCustomScrollbar.js"></script>
+<script src="js/class.video.js"></script>
 <script src="js/class.SiteMain.js"></script>
 
-<link href="http://vjs.zencdn.net/5.10.2/video-js.css" rel="stylesheet">
 
-<!-- If you'd like to support IE8 -->
-<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script src="http://vjs.zencdn.net/5.10.2/video.js"></script>
 </head>
 <body>
 	<div id="container">

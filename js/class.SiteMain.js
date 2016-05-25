@@ -8,6 +8,7 @@ var SiteMain = (function() {
 		toggleFilter();
 		createScrollBar('.listVideos .scrollBar');
 		voteComment();
+		openTypeVideo();
 	}
 	
 	function createRadio(){
@@ -62,6 +63,14 @@ var SiteMain = (function() {
 	function voteComment(){
 		$('.number-reply span.vote').click(function(){
 	        $( this ).toggleClass( "love" );
+		});
+	}
+	function openTypeVideo(){
+		$('.listVideos .type a').click(function(){
+			$('.tabScreenContent .typetab').css('display','none');
+			var tabid = $(this).attr('href');
+			$(tabid).css('display','block');
+			return false;
 		});
 	}
 	return {
