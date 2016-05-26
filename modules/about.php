@@ -3,6 +3,10 @@
         <div class="bg">
             <img src="images/about-bg.png" alt="" />
         </div>
+        <div class="text">
+            <h3>About us</h3>
+            <p>Viademy is a learning community for creators.</p>
+        </div>
     </div>
     <div class="container">
         <div class="aboutPage">
