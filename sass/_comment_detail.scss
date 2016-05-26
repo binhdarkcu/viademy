@@ -580,3 +580,77 @@
 		}
 	}
 }
+
+.infoTab{
+text-align: left;
+padding-top: 45px;
+	color: #515151;
+	h3{
+		@include openSanBold(24px);
+		color: #515151;
+		margin-top: 0;
+		margin-bottom: 25px;
+		text-align: left;
+	}
+	span.time{
+		padding-bottom: 25px;
+		display: block;
+		@include openSanNormal(24px);
+		b{
+			font-weight: bold;
+		}
+	}
+	.teacher{
+		.label{
+			color: #515151;
+			@include openSanNormal(24px);
+			padding-left: 0;
+			b{
+				font-weight: bold;
+			}
+		}
+		.name{
+			@include openSanBold(14px);
+		}
+	}
+	.post_content{
+		padding-top: 35px;
+		    width: 93%;
+		img{
+    padding: 0 25px 25px 0;
+		}
+		p{
+			color: #515151;
+			@include openSanNormal(14px);
+			line-height: 1.4;
+			margin-bottom: 25px;
+		}
+	}
+}
+
+
+.commentContent .commentLeft .tabContent{
+	.reviewTab{
+		.reviewBox{
+			padding-top: 38px;
+			width: 97%;
+			.rating .rating-container{
+				font-size: 26px;
+				 span{
+		    		color: #3a96d2;
+				}
+			}
+			.glyphicon-star-empty:before{
+				color: #c5c5c5;
+			}
+			textarea{
+				@include openSanNormal(24px);
+				color: #515151;
+				height: 252px;
+			}
+			a.btn{
+				font-size: 14px;
+			}
+		}
+	}
+}

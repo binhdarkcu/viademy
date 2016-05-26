@@ -380,6 +380,47 @@ Now I just need to practice more to master the pen tool.</p>
 								</li>
 							</ul>
 						</div>
+						<!--End comment-->
+						<div class="tab infoTab" id="infoTab">
+							<h3>Business Behind-the-Scenes: Growing Your Creative Passion</h3>
+							<span class="time">Thời lượng: <b>102 phút</b></span>
+							<div class="teacher">
+								<span class="label">Giảng viên: <b>Dawid Tuminski</b></span>
+								<span class="name">| Adobe Certified Expert in Illustrator</span>
+							</div>
+							<div class="post_content">
+								<img src="images/info.jpg" alt="" class="pull-left"/>
+								<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula</p>
+								<p>Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus. Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttito.</p>
+								<p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus.</p>
+
+							</div>
+
+						</div>
+						<!--End comment-->
+						<div class="tab infoTab reviewTab" id="reviewTab">
+							<h3>Business Behind-the-Scenes: Growing Your Creative Passion</h3>
+							<span class="time">Thời lượng: <b>102 phút</b></span>
+							<div class="teacher">
+								<span class="label">Giảng viên: <b>Dawid Tuminski</b></span>
+								<span class="name">| Adobe Certified Expert in Illustrator</span>
+							</div>
+							<div class="reviewBox">
+								<h3>Đánh giá của học viên</h3>
+								<div class="rating">
+									<input type="text" class="rating rating-loading" value="1" data-size="xm" title="" >
+								</div>
+
+								<div class="replyForm">
+									<form method="" action="">
+										<textarea placeholder="Ý kiến" id="comment" name="comment" tabindex="4" required="required"></textarea>
+										<input type="submit" class="btn blue" value="Gửi đánh giá"/> 
+									</form>
+								</div>
+							</div>
+						</div>
+
+
 					</div>
 				</div>
 
