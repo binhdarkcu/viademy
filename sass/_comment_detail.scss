@@ -221,6 +221,12 @@
 		}
 		.tabContent{
 			clear: both;
+			.tab{
+				display: none;
+				&.active{
+					display: block;
+				}
+			}
 			.tabcomment{
 				.box{
 					    width: 630px;
@@ -535,4 +541,42 @@
 			font-size: 12px;
 			padding: 8px 24px;
 		}
+}
+
+.documentTab{
+	color: #5d6670;
+	padding-top: 45px;
+	ul{
+		li{
+			padding-bottom: 52px;
+		}
+	}
+	h3{
+		color: #5d6670;
+		@include openSanNormal(24px);
+		text-align: left;
+		margin-top: 0;
+		margin-bottom: 4px;
+	}
+	span.date{
+		color: #5d6670;
+		@include openSanNormal(16px);
+		padding-bottom: 25px;
+		display: block;
+	}
+	p{
+		color: #5d6670;
+		@include openSanNormal(14px);
+		line-height: 1.4;
+	}
+	.btngroup{
+		padding-top: 35px;
+		a{
+			font-size: 14px;
+			margin-left: 0;
+			display: inline-block;
+			margin-right: 30px;
+			padding: 9px 58px;
+		}
+	}
 }

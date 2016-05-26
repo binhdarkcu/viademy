@@ -27,7 +27,7 @@
 			<div class="videoBox">
 				<div class="mainScreen">
 					<video id="commentVideo" class="video-js vjs-default-skin vjs-fullscreen" width="auto" height="auto"
-				      controls preload="auto" poster=''>
+				      controls preload="auto" poster='' data-setup='{ "controlBar": { "muteToggle": false } }'>
 				    </video>
 				</div>
 				<div class="listVideos">
@@ -192,6 +192,7 @@
 							<form method="" action="">
 								<div class="noterow">
 									<label>Thời gian</label>
+									<input type="hidden" value="" class="ipduration"/>
 									<textarea placeholder="Nội dung"></textarea>
 								</div>
 								<div class="noteResult">
@@ -225,14 +226,15 @@
 				<div class="tabComment">
 					<div class="tabName">
 						<ul>
-							<li class="active"><a href="#comment">Bình luận</a></li>
-							<li><a href="#comment">Tài liệu</a></li>
-							<li><a href="#comment">Thông tin</a></li>
-							<li><a href="#comment">Đánh giá</a></li>
+							<li class="active"><a href="#commentTab">Bình luận</a></li>
+							<li><a href="#documentTab">Tài liệu</a></li>
+							<li><a href="#infoTab">Thông tin</a></li>
+							<li><a href="#reviewTab">Đánh giá</a></li>
 						</ul>
 					</div>
 					<div class="tabContent">
-						<div class="tab tabcomment active" id="comment">
+						<!--Comment-->
+						<div class="tab tabcomment active" id="commentTab">
 							<ul class="">
 								<li>
 									<div class="avatar"><img src="images/c-2.jpg"/></div>
@@ -333,6 +335,47 @@ Now I just need to practice more to master the pen tool.</p>
 												<input type="submit" class="btn blue" value="Bình luận"/> 
 											</form>
 										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!--End comment-->
+						<div class="tab documentTab" id="documentTab">
+							<ul>
+								<li>
+									<h3>Braid Workshop for Women Entrepreneurs</h3>
+									<span class="date">Updated Apr, 19th 2016</span>
+									<p>The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other. </p>
+									<div class="btngroup">
+										<a href="#" class="btn btnblue">Tải về</a>
+										<a href="#" class="btn btnblue">Xem chi tiết</a>
+									</div>
+								</li>
+								<li>
+									<h3>Braid Workshop for Women Entrepreneurs</h3>
+									<span class="date">Updated Apr, 19th 2016</span>
+									<p>The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other. </p>
+									<div class="btngroup">
+										<a href="#" class="btn btnblue">Tải về</a>
+										<a href="#" class="btn btnblue">Xem chi tiết</a>
+									</div>
+								</li>
+								<li>
+									<h3>Braid Workshop for Women Entrepreneurs</h3>
+									<span class="date">Updated Apr, 19th 2016</span>
+									<p>The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other. </p>
+									<div class="btngroup">
+										<a href="#" class="btn btnblue">Tải về</a>
+										<a href="#" class="btn btnblue">Xem chi tiết</a>
+									</div>
+								</li>
+								<li>
+									<h3>Braid Workshop for Women Entrepreneurs</h3>
+									<span class="date">Updated Apr, 19th 2016</span>
+									<p>The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other. </p>
+									<div class="btngroup">
+										<a href="#" class="btn btnblue">Tải về</a>
+										<a href="#" class="btn btnblue">Xem chi tiết</a>
 									</div>
 								</li>
 							</ul>

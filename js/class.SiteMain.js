@@ -9,6 +9,7 @@ var SiteMain = (function() {
 		createScrollBar('.listVideos .scrollBar');
 		voteComment();
 		openTypeVideo();
+		openTabComment();
 	}
 	
 	function createRadio(){
@@ -70,6 +71,17 @@ var SiteMain = (function() {
 			$('.listVideos .type a').removeClass('active');
 			$(this).addClass('active');
 			$('.tabScreenContent .typetab').css('display','none');
+			var tabid = $(this).attr('href');
+			$(tabid).css('display','block');
+			return false;
+		});
+	}
+
+	function openTabComment(){
+		$('.commentContent .commentLeft .tabComment .tabName a').click(function(){
+			$('.commentContent .commentLeft .tabComment .tabName li').removeClass('active');
+			$(this).parent().addClass('active');
+			$('.commentContent .commentLeft .tabContent .tab').css('display','none');
 			var tabid = $(this).attr('href');
 			$(tabid).css('display','block');
 			return false;
