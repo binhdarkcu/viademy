@@ -1,0 +1,21 @@
+.course-fee{
+	padding-top: 38px;
+	.title{
+		h3{
+			color: #3a96d2;
+			@include openSanNormal(36px);
+			background: url(../images/icon-document.png) no-repeat left center;
+			padding-left: 60px;
+		}
+	}
+
+	.upgrade{
+		h4{
+			display: none;
+		}
+	}
+
+	.section {
+		padding-top: 40px;
+	}
+}

@@ -1,8 +1,11 @@
-<section class="payment section hasborder">
+<section class="payment">
 	<div class="container">
 		<div class="row">
-			<h4>Thanh toán</h4>
+			<div class="title">
+				<h3 class="alignleft">Thanh toán</h3>
+			</div>
 			<div class="tablecell">
+				<h4 class="alignleft">Hình thức thanh toán</h4>
 				<div class="paymentbox">
 					<div class="head">
 						<h5>&nbsp</h5>
@@ -39,13 +42,33 @@
 				<div class="tbhead">
 					<div class="col col1">Tổng cộng: </div>
 					<div class="col col2"></div>
-					<div class="col col3">800.000đ</div>
+					<div class="col col3 total">800.000đ</div>
 					<div class="clear"></div>
 				</div>
 			</div>
 			<div class="tbpayment">
 				<div class="tbhead">
-					<div class="col col1">Thanh toán </div>
+					<div class="col col1 bold">Thanh toán </div>
+				</div>
+				<div class="tbhead">
+					<div class="col payment-way col1">
+						<input class="visa-code" type="text">
+						<input class="date" type="text" placeholder="mm/yy">
+						<input class="ccv" type="text">
+					</div>
+					<div class="col payment-way col2">
+						<input id="visa" type="radio" name="visaoption">
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="tbhead">
+					<div class="col payment-way col1">
+						<input class="paypal-code" type="text">
+					</div>
+					<div class="col payment-way col2">
+						<input id="paypal" type="radio" name="paypaloption">
+					</div>
+					<div class="clear"></div>
 				</div>
 			</div>
 			<a href="#" class="btn btnblue">Thanh toán</a>
