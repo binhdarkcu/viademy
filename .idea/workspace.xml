@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7936aa48-0be2-4d5a-a2d6-2eb68d77ee28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_aboutPage.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/6c6c231b23ac1c0668e1c3a5b5f1c89df57c3429/_document.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon-document.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/slide.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/document_detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/includes/other_category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_document.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/69220da0b182ada41c0c8f5efefe04dd6de3e524/_style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/69220da0b182ada41c0c8f5efefe04dd6de3e524/_style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/69220da0b182ada41c0c8f5efefe04dd6de3e524/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/69220da0b182ada41c0c8f5efefe04dd6de3e524/all.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/6c6c231b23ac1c0668e1c3a5b5f1c89df57c3429/_style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6c6c231b23ac1c0668e1c3a5b5f1c89df57c3429/_style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/6c6c231b23ac1c0668e1c3a5b5f1c89df57c3429/all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/6c6c231b23ac1c0668e1c3a5b5f1c89df57c3429/all.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css.map" afterPath="$PROJECT_DIR$/css/all.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/comment_detail.php" afterPath="$PROJECT_DIR$/modules/comment_detail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_style.scss" afterPath="$PROJECT_DIR$/sass/_style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/all.scss" afterPath="$PROJECT_DIR$/sass/all.scss" />
     </list>
     <ignored path="viademy.iws" />
@@ -49,11 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-83">
               <caret line="9" column="20" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="all.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/all.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -74,9 +93,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/all.scss" />
         <option value="$PROJECT_DIR$/modules/about.php" />
         <option value="$PROJECT_DIR$/sass/_aboutPage.scss" />
+        <option value="$PROJECT_DIR$/sass/all.scss" />
       </list>
     </option>
   </component>
@@ -210,12 +229,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464278482374</updated>
-      <workItem from="1464278483771" duration="10684000" />
+      <workItem from="1464278483771" duration="10819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10684000" />
+    <option name="totallyTimeSpent" value="10819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,14 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -380,6 +391,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-83">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/all.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
