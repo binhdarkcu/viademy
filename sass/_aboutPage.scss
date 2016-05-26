@@ -1,0 +1,103 @@
+.aboutPage {
+  max-width: 985px;
+  margin: 0 auto;
+
+  .different {
+    padding: 75px 0 175px 0;
+
+    h4 {
+      margin: 0;
+      @include openSanBold(24px);
+      text-align: center;
+      background: url("../images/btn-botoom.png") bottom center no-repeat;
+      padding-bottom: 20px;
+    }
+    
+    p {
+      text-align: center;
+      padding-top: 30px;
+      line-height: 2 !important;
+      margin: 0;
+      @include openSanNormal(18px);
+    }
+    
+  }
+
+  .aboutlist {
+    position: relative;
+    margin-bottom: 160px;
+
+      .textonleft {
+        width: 445px;
+        height: 255px;
+        float: left;
+        position: relative;
+        margin-right: 88px;
+
+        img {
+          position: absolute;
+          top: 22px;
+          left: 84px;
+        }
+        
+        .text {
+          float: left;
+          padding: 85px 0 0 84px;
+
+          h2 {
+            @include openSanNormal(30px)
+          }
+
+          p {
+            @include openSanNormal(12px);
+            line-height: 2;
+          }
+
+        }
+        
+      }
+
+      .textonright {
+        display: inline-table;
+
+        img {
+          float: right;
+          width: 445px;
+          height: 255px;
+        }
+      }
+  }
+
+  .aboutlist--2 {
+    margin-bottom: 88px;
+
+    .textonleft {
+      margin: 0;
+
+      .img--1 img {
+        position: static;
+      }
+
+      .text {
+        float: right;
+      }
+
+    }
+
+  }
+
+  .aboutlist--2--5 {
+    margin-bottom: 110px;
+  }
+
+}
+
+.background-about {
+  .bg {
+    position: relative;
+    background: #000;
+    img {
+      max-width: 100%;
+    }
+  }
+}
