@@ -41,3 +41,35 @@ section a:focus{
 .alignleft{
 	text-align: left!important;
 }
+
+
+/*UPLOAD BUTTON*/
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    padding: 18px 23px;
+    border: 2px solid #cccccc;
+    display: inline-block;
+    span{
+      @include openSanNormal(12px);
+    color: #5d6670;
+    }
+    &.error{
+      border-color: #5d6670;
+    }
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.padtop65{
+	padding-top: 65px;
+}
