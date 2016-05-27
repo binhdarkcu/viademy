@@ -1,8 +1,7 @@
 <section>
     <div class="background-about">
-        <div class="bg">
-            <img src="images/about-bg.png" alt="" />
-        </div>
+        <div class="bg"></div>
+        <img src="images/about-bg.png" alt="" />
         <div class="text">
             <h3>About us</h3>
             <p>Viademy is a learning community for creators.</p>
