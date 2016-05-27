@@ -141,3 +141,54 @@
 		}
 	}
 }
+
+.setpayment{
+	.profileRight {
+		width: 550px;
+	}
+	input[type="radio"]{
+		    float: left;
+	    margin-top: 12px;
+	    margin-right: 18px;
+	}
+	img{
+		float: left;
+		margin-right: 18px;
+	}
+	label{
+
+	}
+	div.number{
+		width: 290px;
+		float: left;
+		margin-right: 13px;
+	}
+	.ccjs-card{
+		label.lb{
+			margin-bottom: 25px;
+			margin-left: -40px;
+		}	
+	}
+	.subtitle{
+		margin-bottom: 33px;
+	}
+	input[type="text"]{
+		border: 1px solid #ccc;
+		width: 93%;
+		height: 35px;
+		@include openSanNormal(21px);
+		color: #5d6670;
+		float: left;
+		padding: 0 10px;
+		@include colorplaceholder(#354455);
+		&.expire{
+			text-align: center;
+			width: 98px;
+		}
+		&.payemail{
+			width: 269px;
+		float: left;
+		}
+	}
+
+}

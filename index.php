@@ -19,10 +19,9 @@
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
 
-
-
 <script src="js/icheck.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 <script src="js/star-rating.js"></script>
 <script src="js/slick.js"></script>
 <script src="js/jquery.mCustomScrollbar.js"></script>

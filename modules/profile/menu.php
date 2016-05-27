@@ -9,6 +9,6 @@
 		<li class="<?php if($module == 'profile') echo 'active';?>"><a href="#">Thông tin cá nhân</a></li>
 		<li class="<?php if($module == 'setpassword') echo 'active';?>"><a href="#">Đặt lại mật khẩu</a></li>
 		<li class="<?php if($module == 'setnotification') echo 'active';?>"><a href="#">Cài đặt thông báo</a></li>
-		<li class="<?php if($module == 'profile') echo 'active';?>"><a href="#">Phương thức thanh toán</a></li>
+		<li class="<?php if($module == 'setpayment') echo 'active';?>"><a href="#">Phương thức thanh toán</a></li>
 	</ul>
 </div>

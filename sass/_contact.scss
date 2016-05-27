@@ -74,17 +74,21 @@
       }
 
       .inputText {
-        height: 37px;
-        border-bottom: 1px solid #333;
-        width: 254px;
-        margin-right: 22px;
+            border-bottom: 1px solid #ebebeb;
+          width: 254px;
+          margin-bottom: 16px;
+          padding-bottom: 20px;
+          outline: none;
+          margin-right: 22px;
       }
       
       .inputMesage {
         display: block;
+        outline: none;
+        resize: none;
         width: 535px;
         height: 157px;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #ebebeb;
         margin: 18px 0 24px;
       }
       

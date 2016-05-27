@@ -28,6 +28,21 @@ $fontArial12: normal 11px/1.2 Arial, Helvetica, sans-serif;
 	font-weight:600;
 }
 
+@mixin colorplaceholder($color){
+	&::-webkit-input-placeholder { /* WebKit browsers */
+	    color:    $color;
+	}
+	&:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+	    color:    $color;
+	}
+	&::-moz-placeholder{ /* Mozilla Firefox 19+ */
+	    color:    $color;
+	}
+	&:-ms-input-placeholder{ /* Internet Explorer 10+ */
+	    color:    $color;
+	}
+}
+
 /*COLOR*/
 $colorBlack:#000;
 
