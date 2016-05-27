@@ -21,16 +21,12 @@
 
 
 
-<!-- If you'd like to support IE8 -->
-<script src="js/videojs-ie8.min.js"></script>
-<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-<script src="js/video.js"></script>
 <script src="js/icheck.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/star-rating.js"></script>
 <script src="js/slick.js"></script>
 <script src="js/jquery.mCustomScrollbar.js"></script>
-<script src="js/class.video.js"></script>
+
 <script src="js/class.SiteMain.js"></script>
 
 

@@ -459,3 +459,10 @@ Now I just need to practice more to master the pen tool.</p>
 		</div>
 	</div>
 </section>
+
+
+<!-- If you'd like to support IE8 -->
+<script src="js/videojs-ie8.min.js"></script>
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="js/video.js"></script>
+<script src="js/class.video.js"></script>
