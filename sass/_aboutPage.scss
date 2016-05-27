@@ -32,7 +32,7 @@
         height: 255px;
         float: left;
         position: relative;
-        margin-right: 88px;
+        margin-right: 95px;
 
         img {
           position: absolute;
@@ -69,7 +69,7 @@
   }
 
   .aboutlist--2 {
-    margin-bottom: 88px;
+    min-height: 255px;
 
     .textonleft {
       margin: 0;
