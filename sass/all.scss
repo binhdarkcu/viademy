@@ -7,6 +7,7 @@
 @import 'header';
 @import 'footer';
 @import 'popup';
+@import "commom";
 
 @import 'bootstrap.min'; 
 @import 'home'; 
@@ -21,8 +22,13 @@
 @import 'payment';  
 @import 'jquery.mCustomScrollbar';
 @import 'document';
+<<<<<<< HEAD
 @import 'profile';
 
+=======
+@import "aboutPage";
+@import "contact";
+>>>>>>> ef1057061b6f2573dc0f5c267ee7d1b73f70c35a
 
 @import 'responsive/1024-1170';
 @import 'responsive/992-1024';
