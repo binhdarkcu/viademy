@@ -25,6 +25,12 @@
                         </div>
                         <form method="post">
                             <h2>Contact us</h2>
+                            <input type="text" placeholder="First name" class="inputText placeholder">
+                            <input type="text" placeholder="Last name" class="inputText placeholder">
+                            <input type="email" placeholder="Email" class="inputText placeholder">
+                            <input type="text" placeholder="Phone number" class="inputText placeholder">
+                            <textarea cols="1" rows="1" placeholder="Message" class="inputMesage placeholder"></textarea>
+                            <a href="#" class="btn_commom"><span>Send</span></a>
                         </form>
                     </div>
                 </div>
@@ -33,7 +39,7 @@
             <div class="contact_start">
                 <div class="contact_start--btn">
                     <p>Viademy make study simple...</p>
-                    <a href="#" class="contact_start--btn--1">
+                    <a href="#" class="btn_commom">
                         <span>Bắt đầu ngay</span>
                     </a>
                 </div>

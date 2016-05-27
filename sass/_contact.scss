@@ -47,6 +47,7 @@
     .text {
       min-height: 24px;
       margin-bottom: 97px;
+
       p {
         @include openSanSimiBold(16px);
         float: left;
@@ -59,6 +60,7 @@
         img {
           margin: 0;
         }
+
       }
       
     }
@@ -68,6 +70,36 @@
       h2 {
         font-size: 30px;
         color: #000;
+        padding-bottom: 30px;
+      }
+
+      .inputText {
+        height: 37px;
+        border-bottom: 1px solid #333;
+        width: 254px;
+        margin-right: 22px;
+      }
+      
+      .inputMesage {
+        display: block;
+        width: 535px;
+        height: 157px;
+        border-bottom: 1px solid #333;
+        margin: 18px 0 24px;
+      }
+      
+      a {
+        &:hover {
+          text-decoration: none;
+        }  
+      }
+      
+      .btn_commom {
+        margin-bottom: 76px;
+        span {
+          color: #fff;
+          @include openSanSimiBold(16px);
+        }
       }
 
     }
@@ -96,14 +128,6 @@
     a {
       float: right;
 
-      &.contact_start--btn--1 {
-        padding: 8px 34px 0;
-        background: #3399cc;
-        display: table;
-        height: 34px;
-        @include boderRadius(20px)
-      }
-
       &:hover {
         text-decoration: none;
       }
@@ -117,8 +141,25 @@
 
   }
 
-}
 
-footer {
-  //margin-top: 0;
+  ::-webkit-input-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+  :-moz-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+  ::-moz-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+  :-ms-input-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
 }
