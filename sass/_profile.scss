@@ -1,0 +1,106 @@
+.profile{
+	.title{
+		border-bottom: 1px solid #dee4e8;
+		padding-bottom: 15px;
+		margin-bottom: 45px;
+		h3{
+			margin-top: 0;
+			margin-bottom: 2px;
+			background: url(../images/icon-profile.png) no-repeat left center;
+			padding-left: 55px;
+			color: #3a96d2;
+			@include openSanNormal(36px);
+			    padding-top: 4px;
+    padding-bottom: 4px;
+		}
+	}
+	.profileLeft{
+		width: 355px;
+		float: left;
+		.avatar{
+			@include border-radius(50%);
+			position: relative;
+			overflow: hidden;
+			width: 281px;
+			height: 281px;
+			margin-bottom: 32px;
+			img{
+
+			}
+		}
+		ul{
+			li{
+				margin-bottom: 15px;
+				width: 198px;
+				height: 52px;
+				border: 1px solid #5d6670;
+				a{
+					@include openSanNormal(12px);
+					color: #5d6670;
+					display: block;
+					text-align: center;
+					line-height: 52px;
+					&:hover, &:focus{
+						text-decoration: none;
+						color: #fff;
+					}
+				}
+				&:hover{
+					background: #3b97d3;
+						border-color: #3b97d3;
+				}
+			}
+		}
+	}
+	.profileRight{
+		float: left;
+		width: 507px;
+		.subtitle{
+			color: #5d6670;
+			@include openSanNormal(24px);
+			float: left;
+		}
+		.payoption{
+			float: left;
+
+			a{
+				margin-left: 20px;
+				@include openSanNormal(13px);
+				background: #959595;
+				color: #fff;
+				@include border-radius(12px);
+				padding: 3px 17px;
+				&.selected{
+					background: #3b97d3;
+				}
+			}
+		}
+		.prow{
+			padding-bottom: 15px;
+			input[type="text"]{
+				border: 1px solid #ccc;
+				height: 52px;
+				width: 368px;
+				padding: 0 15px;
+				outline: none;
+				line-height: 52px;
+				@include openSanNormal(14px);
+				color: #5d6670;
+			}
+			span{
+				width: 102px;
+				margin-left: 30px;
+				display: inline-block;
+			}
+		}
+		.fileUpload {
+			clear: both;
+			    float: left;
+			    margin: 25px 0;
+		}
+		input[type="submit"]{
+			margin-left: 0;
+			margin-top: 13px;
+		}
+	}
+}
