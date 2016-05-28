@@ -1,0 +1,169 @@
+.contact {
+  //background
+  .contact_bg {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    .text {
+      position: absolute;
+      top: 120px;
+      left: 50%;
+      color: #fff;
+      margin-left: -200px;
+
+      h3 {
+        margin-bottom: 0;
+        line-height: 1.5;
+        font-size: 36px;
+        color: #fff;
+      }
+
+      p {
+        text-align: center;
+        @include openSanSimiBold(16px);
+      }
+
+    }
+
+  }
+
+  //section
+  .contact_section {
+    width: 831px;
+    margin: 0 auto;
+
+    img {
+      margin: 83px 0 54px;
+    }
+
+    p {
+      @include openSanNormal(16px);
+      line-height: 2;
+    }
+
+    .text {
+      min-height: 24px;
+      margin-bottom: 97px;
+
+      p {
+        @include openSanSimiBold(16px);
+        float: left;
+        line-height: 2;
+      }
+      
+      .icon {
+        float: right;
+
+        img {
+          margin: 0;
+        }
+
+      }
+      
+    }
+
+    form {
+
+      h2 {
+        font-size: 30px;
+        color: #000;
+        padding-bottom: 30px;
+      }
+
+      .inputText {
+            border-bottom: 1px solid #ebebeb;
+          width: 254px;
+          margin-bottom: 16px;
+          padding-bottom: 20px;
+          outline: none;
+          margin-right: 22px;
+      }
+      
+      .inputMesage {
+        display: block;
+        outline: none;
+        resize: none;
+        width: 535px;
+        height: 157px;
+        border-bottom: 1px solid #ebebeb;
+        margin: 18px 0 24px;
+      }
+      
+      a {
+        &:hover {
+          text-decoration: none;
+        }  
+      }
+      
+      .btn_commom {
+        margin-bottom: 76px;
+        span {
+          color: #fff;
+          @include openSanSimiBold(16px);
+        }
+      }
+
+    }
+    
+  }
+
+  //start
+  .contact_start {
+    background: #f4f5f7;
+    width: 100%;
+    min-height: 208px;
+    
+    .contact_start--btn {
+      width: 621px;
+      margin: 0 auto;
+      padding-top: 77px;
+      min-height: 208px;
+    }
+    
+    p {
+      float: left;
+      color: #333;
+      font-size: 30px;
+    }
+    
+    a {
+      float: right;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      span {
+        color: #fff;
+        @include openSanSimiBold(16px);
+      }
+
+    }
+
+  }
+
+
+  ::-webkit-input-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+  :-moz-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+  ::-moz-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+  :-ms-input-placeholder {
+    color: #000;
+    @include openSanSimiBold(10px);
+  }
+
+}

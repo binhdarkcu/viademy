@@ -7,6 +7,7 @@
 @import 'header';
 @import 'footer';
 @import 'popup';
+@import "commom";
 
 @import 'bootstrap.min'; 
 @import 'home'; 
@@ -23,7 +24,11 @@
 @import 'document';
 @import 'course-fee';
 @import 'search';
+@import 'profile';
 
+@import "aboutPage";
+@import "contact";
+@import "input_payment";
 
 @import 'responsive/1024-1170';
 @import 'responsive/992-1024';
