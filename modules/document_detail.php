@@ -11,7 +11,43 @@
 		</ul>
 		<p>The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other.  The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other. The idea behind Braid Workshop for Women Entrepreneurs is to create a space for women in my community to connect and build their businesses. I picked the name Braid because one strand by itself is easy to bend and break, but when you weave many strands together like in a braid, then they add strength to each other. </p>
 		<div class="slideViewMode">
-			<img src="images/slide.jpg"/>
+			<div class="slidebg">
+				<div class="relativeBox">
+					<div class="slideSlick">
+						<div class="slick-slide">
+							<h4>Về chúng tôi</h4>
+							<p>
+								<span>Lớp học hay phòng học là một căn phòng thường được bố trí trong nhà trường chuyên sử dụng cho hoạt động</span> 
+							</p>
+							<span class="blue">Bradley Ortiz</span>
+						</div>
+						<div class="slick-slide">
+							<h4>Về chúng tôi 2</h4>
+							<p>
+								<span>Lớp học hay phòng học là một căn phòng thường được bố trí trong nhà trường chuyên sử dụng cho hoạt động</span> 
+								<span>chức tôn giáo và tổ chức nhân đạo, y tế....<span>
+							</p>
+							<span class="blue">Bradley Ortiz</span>
+						</div>
+						<div class="slick-slide">
+							<h4>Về chúng tôi 3</h4>
+							<p>
+								<span>giảng dạy và học tập của thầy cô giáo, giảng viên, giáo sư... và các em học sinh, sinh viên, học viên... Lớp học là tổ
+								<span>chức tôn giáo và tổ chức nhân đạo, y tế....<span>
+							</p>
+							<span class="blue">Bradley Ortiz</span>
+						</div>
+					</div>
+				</div>
+				<div class="nav">
+					<a href="javascript:void(0);" class="prev"></a>
+					<a href="javascript:void(0);" class="next"></a>
+				</div>
+				<div class="zoomControl">
+					<a href="#" class="iconzoom"></a>
+					<input type="range" class="zoom-range">
+				</div>
+			</div>
 		</div>
 		<a href="#" class="btn btnblue btndownload">Tải về</a>
 		<div class="courseFeatures">
@@ -128,3 +164,27 @@
 		</div>
 	</div>
 </section>
+<script src="js/jquery.panzoom.js"></script>
+<script src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.slideSlick').slick({
+		 	slidesToShow: 1,
+		 	slidesToScroll: 1,
+		 	arrows: false,
+		 	fade: true
+		 });
+		$('.slideViewMode .nav a.prev').click(function(){
+		    $(".slideSlick").slick('slickPrev');
+		});
+		$('.slideViewMode .nav a.next').click(function(){
+		    $(".slideSlick").slick('slickNext');
+		});
+
+
+		var $section = $('.slideViewMode').first();
+	      $section.find('.slideSlick').panzoom({
+	        $zoomRange: $section.find(".zoom-range")
+	      });
+	});
+</script>

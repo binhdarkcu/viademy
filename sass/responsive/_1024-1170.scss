@@ -6,6 +6,18 @@
 			    text-align: left;
 		}
 	}
+	.commentDetail {
+		.videoPlayer .top .lessiontitle{
+			float: left;
+			margin-bottom: 15px;
+		}
+	}
+	header .logged .searchForm{
+		float: right; 
+	}
+	.mainScreen{
+		width: 665px;
+	}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1170px) {
 	.courseList{
