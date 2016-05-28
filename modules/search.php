@@ -1,9 +1,15 @@
 <section class="search">
 	<div class="container">
 			<div class="cateList">
-				<h2><input type="text" placeholder="Tìm kiếm khóa học của bạn"></input></h2>
+				<h2><input type="text" placeholder="tìm kiếm khóa học của bạn"></input></h2>
 				<div class="filter">
-					<a href="#">Sắp xếp theo</a>
+					<label>
+					    <select class="sort">
+					        <option selected> Sắp xếp theo </option>
+					        <option>Sắp xếp theo ngày</option>
+					        <option>Sắp xếp theo tháng</option>
+					    </select>
+					</label>
 					<div class="filterbox">
 						<a href="javascript: void(0);" class="afilter">
 							Bộ lọc

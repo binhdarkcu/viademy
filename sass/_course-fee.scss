@@ -4,8 +4,8 @@
 		h3{
 			color: #3a96d2;
 			@include openSanNormal(36px);
-			background: url(../images/icon-document.png) no-repeat left center;
-			padding-left: 60px;
+			background: url(../images/icon-dollar.png) no-repeat left center;
+			padding: 5px 0 5px 60px;
 		}
 	}
 
@@ -17,5 +17,11 @@
 
 	.section {
 		padding-top: 40px;
+	}
+
+	.upgradeTable {
+		a {
+			display: none;
+		}
 	}
 }

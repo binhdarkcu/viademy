@@ -8,11 +8,11 @@ section.search{
 		margin-left: calc(100%/2 - 880px/2);
 		h2{
 			border-bottom: 1px solid #dde6f1;
-			padding-bottom: 20px;
-			margin-bottom: 30px;
+			background: url(../images/icon-search.png) no-repeat left center;
+			padding: 8px 0 10px 60px;
 
 			input[type="text"]{
-				@include openSanSimiBold(30px);
+				@include openSanNormal(36px);
 				color: #dde6f1;
 				height: 30px;
 				width: 100%;
@@ -32,7 +32,37 @@ section.search{
 			}
 		}
 		.filter{
-			a{
+			label{
+				float: left;
+				position: relative;
+
+				select.sort {
+					width: 170px;
+    				height: 39px;
+					color: #5d6670;
+					padding: 12px 20px;
+					float: left;
+					text-align: center;
+					@include openSanNormal(12px);
+					border: 1px solid #dde6f1;
+				    cursor:pointer;
+				}
+			}
+
+			label:after {
+			    content:'<>';
+			    font:20px "Consolas", monospace;
+			    color: #5d6670;
+			    -webkit-transform:rotate(90deg);
+			    -moz-transform:rotate(90deg);
+			    -ms-transform:rotate(90deg);
+			    transform:rotate(90deg);
+			    right: 6px;
+    			top: 8px;
+			    position:absolute;
+			    pointer-events:none;
+			}
+			.a{
 				color: #5d6670;
 				padding: 12px 20px;
 				float: left;

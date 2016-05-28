@@ -40,38 +40,40 @@
 		<div class="row">
 			<div class="tbpayment">
 				<div class="tbhead">
-					<div class="col col1">Tổng cộng: </div>
-					<div class="col col2"></div>
-					<div class="col col3 total">800.000đ</div>
+					<div class="col col1 total-label">Tổng cộng: </div>
+					<div class="col col2 total-value">800.000đ</div>
 					<div class="clear"></div>
 				</div>
 			</div>
 			<div class="tbpayment">
 				<div class="tbhead">
-					<div class="col col1 bold">Thanh toán </div>
-				</div>
-				<div class="tbhead">
-					<div class="col payment-way col1">
-						<input class="visa-code" type="text">
-						<input class="date" type="text" placeholder="mm/yy">
-						<input class="ccv" type="text">
-					</div>
-					<div class="col payment-way col2">
-						<input id="visa" type="radio" name="visaoption">
-					</div>
+					<div class="col col1 subtitle">Thanh toán </div>
 					<div class="clear"></div>
 				</div>
-				<div class="tbhead">
-					<div class="col payment-way col1">
-						<input class="paypal-code" type="text">
-					</div>
-					<div class="col payment-way col2">
-						<input id="paypal" type="radio" name="paypaloption">
-					</div>
-					<div class="clear"></div>
+
+				<div class="payment-card">
+					<form method="" action="" class="ccjs-card">
+						<label id="visa" class="lb">
+							<img src="images/visa.png" alt=""/>
+							<div class="number">
+								<label class="ccjs-number">
+						          <input type="text" name="cc-number" placeholder="••••   ••••   ••••   ••••" class="ccjs-number"/>
+						        </label>
+							</div>
+							<input class="expire" type="text" value="" name="expire" placeholder="mm/yy">
+							<input class="ccv" type="text" value="" name="ccv">
+							<input type="radio" value="" name="setpayment"/>
+						</label>
+						<label id="paypal" class="lb">
+							<img src="images/paypal.png" alt=""/>
+							<input name="payemail" type="text" value="" class="payemail"/>
+							<input type="radio" value="" name="setpayment"/>
+						</label>
+						<input type="submit" value="Thanh toán" class="btn btnblue"/>
+					</form>
 				</div>
 			</div>
-			<a href="#" class="btn btnblue">Thanh toán</a>
 		</div>
 	</div>
 </section>
+<script src='js/creditcardjs-v0.10.12.min.js'></script>

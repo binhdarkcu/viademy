@@ -8,20 +8,19 @@
 		h3{
 			color: #3a96d2;
 			@include openSanNormal(36px);
-			background: url(../images/icon-document.png) no-repeat left center;
-			padding-left: 60px;
+			background: url(../images/icon-dollar.png) no-repeat left center;
+			padding: 5px 0 5px 60px;
 		}
 	}
 
 	.tablecell{
-		padding-top: 25px;
+		padding-top: 60px;
 		text-align: center;
 
 		h4{
-			@include openSanNormal(16px);
-			margin-left: 60px;
+			@include openSanNormal(24px);
 			margin-left: 200px;
-    		margin-bottom: 15px;
+    		margin-bottom: 35px;
 		}
 	}
 
@@ -43,9 +42,9 @@
 			border-bottom: 1px solid #edf4f8;
 			h5{
 				color: #3b97d3;
-				@include openSanBold(25px);
-				margin-top: 19px;
-				    margin-bottom: 25px;
+				@include openSanBold(30px);
+				margin-top: 40px;
+    			margin-bottom: 15px;
 			}
 			h2{
 				color: #3b97d3;
@@ -70,51 +69,37 @@
 				vertical-align: middle;
 			}
 		}
-		a{
-			background: #5d6670;
-			color: #fff;
-			@include openSanSimiBold(14px);
-			text-transform: uppercase;
-			padding: 11px 44px;
-			@include border-radius(0);
-			display: table;
-			margin: 23px auto 0;
-			&:hover{
-				background: #3b97d3;
-			}
-		}
 	}
 }
 .paymentTable{
-.tbpayment{
-	width: 772px;
-	margin: 0 auto;
-}
+	.tbpayment{
+		width: 772px;
+		margin: 0 auto;
+	}
 	.tbhead{
 		padding: 22px 0;
 
 		.col{
 			float: left;
-			@include openSanSimiBold(14px);
 			color: #5d6670;
 			&.col1{
-				width: 272px;
+				width: 570px;
+				text-align: left;
 
-				&.bold {
-					font-weight: bold;
+				&.total-label {
+					@include openSanNormal(24px);
+				}
+
+				&.subtitle {
+					@include openSanBold(24px);
 				}
 			}
 			&.col2{
-				width: 34px;
-			}
-			&.col3{
-				width: 262px;
-				float: right;
-				text-align: center;
+				width: 200px;
+				float: left;
 
-				&.total {
-					@include openSanSimiBold(18px);
-					font-weight: bold;
+				&.total-value {
+					@include openSanBold(36px);
 				}
 			}
 
@@ -131,37 +116,54 @@
 				}
 			}
 		}
+	}
+}
 
-		input[type="text"]{
-			@include openSanNormal(14px);
-			border: 1px solid #000000;
-			color: #535353;
-			height: 30px;
-		    outline: none;
-			&::-webkit-input-placeholder { /* WebKit browsers */
-			    color:    #535353;
-			}
-			&:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
-			    color:    #535353;
-			}
-			&::-moz-placeholder{ /* Mozilla Firefox 19+ */
-			    color:    #535353;
-			}
-			&:-ms-input-placeholder{ /* Internet Explorer 10+ */
-			    color:    #535353;
-			}
+.paymentTable {
+	input[type="radio"]{
+		    float: left;
+	    margin-top: 12px;
+	    margin-right: 18px;
+	}
+	img{
+		float: left;
+		margin-right: 18px;
+	}
+	.ccjs-card {
+		padding-top: 0;
+		label.lb {
+		    margin-bottom: 25px;
+		}
+	}
+	div.number{
+		width: 290px;
+		float: left;
+		margin-right: 13px;
+	}
+	input[type="text"]{
+		border: 1px solid #ccc;
+		width: 93%;
+		height: 35px;
+		@include openSanNormal(21px);
+		color: #5d6670;
+		float: left;
+		padding: 0 10px;
+		@include colorplaceholder(#354455);
+		&.expire, &.ccv{
+			text-align: center;
+			width: 98px;
+			margin-right: 13px;
+		}
+		&.payemail{
+			width: 269px;
+			margin-right: 260px;
+			float: left;
+		}
+	}
 
-			&.visa-code, &.paypal-code {
-				width: 230px;
-			}
-			&.date {
-				width: 80px;
-				margin-left: 10px;
-			}
-			&.ccv {
-				width: 80px;
-				margin-left: 10px;
-			}
+	input[type="submit"]{
+		&.btn{
+			margin-top: 60px;
 		}
 	}
 }
