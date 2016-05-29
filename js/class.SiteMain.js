@@ -10,6 +10,7 @@ var SiteMain = (function() {
 		voteComment();
 		openTypeVideo();
 		openTabComment();
+		openAccountNav();
 	}
 	
 	function createRadio(){
@@ -85,6 +86,19 @@ var SiteMain = (function() {
 			var tabid = $(this).attr('href');
 			$(tabid).css('display','block');
 			return false;
+		});
+	}
+	var isclick = 0;
+	function openAccountNav(){
+		
+		$('.accountBox a.accoutName').click(function(){
+			if(isclick == 0){
+				$('.accountBox .submenu').css('display','block');
+				isclick=1;
+			}else{
+				$('.accountBox .submenu').css('display','none');
+				isclick=0;
+			}
 		});
 	}
 	return {
