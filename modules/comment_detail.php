@@ -423,10 +423,6 @@ Now I just need to practice more to master the pen tool.</p>
 
 					</div>
 				</div>
-
-				<!--End-->
-				<?php include('includes/other_category.php');?>
-				
 			</div>
 			<div class="commentRight">
 				<div class="comment-share">
@@ -455,6 +451,10 @@ Now I just need to practice more to master the pen tool.</p>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class="commentLeft">
+				<!--End-->
+				<?php include('includes/other_category.php');?>
 			</div>
 		</div>
 	</div>

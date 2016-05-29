@@ -62,12 +62,12 @@
 							</div>
 							<input class="expire" type="text" value="" name="expire" placeholder="mm/yy">
 							<input class="ccv" type="text" value="" name="ccv">
-							<input type="radio" value="" name="setpayment"/>
+							<input id="visa" type="radio" value="" name="setpayment"/>
 						</label>
 						<label id="paypal" class="lb">
 							<img src="images/paypal.png" alt=""/>
 							<input name="payemail" type="text" value="" class="payemail"/>
-							<input type="radio" value="" name="setpayment"/>
+							<input id="paypal" type="radio" value="" name="setpayment"/>
 						</label>
 						<input type="submit" value="Thanh toán" class="btn btnblue"/>
 					</form>

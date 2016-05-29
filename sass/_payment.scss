@@ -75,6 +75,14 @@
 	.tbpayment{
 		width: 772px;
 		margin: 0 auto;
+		.payment-card{
+			label{
+				width: 726px;
+				input[type="radio"]{
+					float: right;
+				}
+			}
+		}
 	}
 	.tbhead{
 		padding: 22px 0;
