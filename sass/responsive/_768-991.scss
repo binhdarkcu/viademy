@@ -241,6 +241,32 @@
 	.setpayment .ccjs-card label.lb{
 		margin-left: 0;
 	}
+	.aboutPage {
+		.aboutPage_section {
+			.aboutlist{
+				margin-bottom: 10%;
+				 .textonleft{
+				 	.text{
+				 		padding-left: 0;
+				 	}
+				 	.img.thumb{
+				 		img{
+				 		width: 100%;
+				 		}
+				 	}
+				 }
+				 .textonright{
+				 	.text{
+				 	}
+				 	.img.thumb{
+				 		img{
+				 		width: 100%;
+				 		}
+				 	}
+				 }
+			}
+		}
+	}
 }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {

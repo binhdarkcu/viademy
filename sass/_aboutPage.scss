@@ -72,21 +72,22 @@
       margin-bottom: 160px;
 
       .textonleft {
-        width: 445px;
-        height: 255px;
-        float: left;
+        width: 100%;
+        min-height: 255px;
         position: relative;
-        margin-right: 95px;
-
-        img {
-          position: absolute;
-          top: 22px;
-          left: 84px;
+        .img.thumb{
+          float: left;
+          width: 49%;
+          img{
+            float:right;
+          }
         }
 
         .text {
           float: left;
-          padding: 85px 0 0 84px;
+          width: 45%;
+          margin-right: 5%;
+          padding: 0 0 0 84px;
 
           h2 {
             @include openSanNormal(30px)
@@ -102,12 +103,19 @@
       }
 
       .textonright {
-        display: inline-table;
-
-        img {
-          float: right;
-          width: 445px;
-          height: 255px;
+        width: 100%;
+        min-height: 255px;
+        position: relative;
+        .text{
+          float:right;
+          text-align: left;
+          width: 45%;
+          
+          padding: 0 0 0 0;
+        }
+        .img.thumb{
+          width: 49%;
+          margin-right: 5%;
         }
       }
     }
