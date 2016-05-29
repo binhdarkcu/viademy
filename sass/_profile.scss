@@ -181,6 +181,7 @@
 		float: left;
 		padding: 0 10px;
 		@include colorplaceholder(#354455);
+		@include sizeplaceholder(29px);
 		&.expire{
 			text-align: center;
 			width: 98px;

@@ -1,5 +1,5 @@
 <header>
-	<div class="container logged"><!--logged-->
+	<div class="container "><!--logged-->
 		<a href="#" class="logo"></a>
 		<div class="searchForm">
 			<form action="" method="">

@@ -157,6 +157,7 @@
 		float: left;
 		padding: 0 10px;
 		@include colorplaceholder(#354455);
+		@include sizeplaceholder(30px);
 		&.expire, &.ccv{
 			text-align: center;
 			width: 98px;

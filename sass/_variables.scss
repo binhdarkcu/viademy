@@ -42,7 +42,24 @@ $fontArial12: normal 11px/1.2 Arial, Helvetica, sans-serif;
 	    color:    $color;
 	}
 }
-
+@mixin sizeplaceholder($size){
+	&::-webkit-input-placeholder { /* WebKit browsers */
+	    font-size:    $size;
+	    line-height: $size;
+	}
+	&:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+	    font-size:    $size;
+	    line-height: $size;
+	}
+	&::-moz-placeholder{ /* Mozilla Firefox 19+ */
+	    font-size:    $size;
+	    line-height: $size;
+	}
+	&:-ms-input-placeholder{ /* Internet Explorer 10+ */
+	    font-size:    $size;
+	    line-height: $size;
+	}
+}
 /*COLOR*/
 $colorBlack:#000;
 
