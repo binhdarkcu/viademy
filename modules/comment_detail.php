@@ -192,12 +192,12 @@
 							<form method="" action="">
 								<div class="noterow">
 									<label>Thời gian</label>
-									<input type="hidden" value="" class="ipduration"/>
-									<textarea placeholder="Nội dung"></textarea>
+									<input type="hidden" value="00:00" class="ipduration"/>
+									<textarea placeholder="Nội dung" class="inputcontent"></textarea>
 								</div>
 								<div class="noteResult">
 									<ul>
-										<li>
+										<li data-id="1">
 											<div class="duration">
 												00.04
 											</div>
@@ -205,11 +205,11 @@
 												Đây là note demo
 												Demo thôi
 											</div>
-											<a href="#" class="remove"></a>
+											<a href="#" class="remove" data-id="1"></a>
 										</li>
 									</ul>
 								</div>
-								<a href="#" class="btn btnblue">Thêm</a>
+								<a href="javascript:void(0);" class="btn btnblue" id="btnAdd">Thêm</a>
 							</form>
 						</div>
 					</div>

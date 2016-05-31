@@ -5,6 +5,8 @@ var videoPlayer = (function() {
 	function init(){
 		initVideo();
 		changeVideo();
+		addNoteVideo();
+		removeNote();
 	}
 	
 	function initVideo(){
@@ -89,6 +91,29 @@ var videoPlayer = (function() {
 			this.play();
 		});
 	}
+
+	function addNoteVideo(){
+		
+		$('#noteTab a#btnAdd').click(function(){
+			var duration = $('.notetab input.ipduration').val();
+			var text = $('.notetab .inputcontent').val();
+			
+			if(text != ''){
+				var html = '<li><div class="duration">'+ duration + '</div><div class="text">'+text+'</div><a href="#" class="remove"></a></li>';	
+				$('.noteResult ul').prepend(html);
+			}
+			
+			
+		});
+	}
+
+	function removeNote(){
+		$('.notetab a.remove').click(function(){
+			var id = $(this).attr('data-id');
+			$('.noteResult ul li[data-id="'+id+'"]').remove();
+		});
+	}
+
 	return {
 		init:init
 	}
